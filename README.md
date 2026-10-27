@@ -2,7 +2,7 @@
 
 面向本项目的大数据平台查表、字段/分区核对、血缘与SQL追溯、查询编写、任务创建准备及知识包更新。技能名：`bigdata-platform`。
 
-本仓库及知识包为**私有内部资料**。不公开、不镜像到公开仓库。知识包有表结构、热度、资产说明、表级血缘和可见SQL，没有业务查询结果、认证凭据或浏览器Profile。
+2026-10-27，仓库所有者明确授权将本仓库及现有知识包**全部公开**。技能文件、表结构、血缘、资产说明和归档SQL均可公开访问。知识包有表结构、热度、资产说明、表级血缘和可见SQL，没有业务查询结果、认证凭据或浏览器Profile。
 
 ## 已实现与使用
 
@@ -21,7 +21,7 @@
 
 ## 安装
 
-需要Python 3.12+，离线脚本不依赖第三方包。GitHub CLI仅用于下载私有仓库/Release，凭据由CLI正常登录机制管理。
+需要Python 3.12+，离线脚本不依赖第三方包。可直接从GitHub公开页面下载仓库和Release知识包；下方GitHub CLI命令也是一种下载方式。
 
 ```powershell
 gh repo clone chenyixiang280-lab/bigdata-platform "$env:USERPROFILE/.codex/skills/bigdata-platform"
@@ -35,7 +35,7 @@ python "$env:USERPROFILE/.codex/skills/bigdata-platform/scripts/catalog.py" bind
 
 知识包以2026-10-25归档为基线，组件有各自采集时点；它不是2026-10-27实时重采结果。共7,139表，2,887表SQL证据、2,318表资产说明、3,748表非空血缘。剩余缺口和历史版本状态在包内保留。
 
-`catalog-release.json`保存当前知识包的SHA及Release定位。57MB左右知识包放在私有Release资产中，Git只维护技能、脚本和小清单。Skill版本见`VERSION`，与知识包日期独立。
+`catalog-release.json`保存当前知识包的SHA及Release定位。57MB左右知识包放在公开Release资产中，Git只维护技能、脚本和小清单。Skill版本见`VERSION`，与知识包日期独立。
 
 ## 后续更新
 

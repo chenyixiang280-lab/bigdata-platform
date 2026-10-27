@@ -14,8 +14,8 @@
   "members": 20870,
   "bytes": 57232430,
   "distribution_validation": "PASS",
-  "visibility_required": "private",
+  "visibility_required": "public",
   "repository": "chenyixiang280-lab/bigdata-platform",
   "release_tag": "knowledge-20261025",
-  "skill_version": "1.0.0"
+  "skill_version": "1.0.1"
 }

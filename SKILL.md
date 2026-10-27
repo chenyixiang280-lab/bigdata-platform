@@ -30,7 +30,7 @@ python scripts/catalog.py sources dm_oper.dm_trans_med_insu_shop_goods_sum_sale_
 python scripts/catalog.py text dm_oper.dm_trans_med_insu_shop_goods_sum_sale_dip --kind sql --index 0
 ```
 
-每次读包验证文件SHA；`bind`另外校验表身份和引用文件哈希。绑定存于本机 `.local/catalog.json`，不上传GitHub。新机器从私有Release下载知识包，再执行bind。未绑定时明确提示所需文件，不悄悄选择旧目录。
+每次读包验证文件SHA；`bind`另外校验表身份和引用文件哈希。绑定存于本机 `.local/catalog.json`，不上传GitHub。新机器从本仓库公开Release下载知识包，再执行bind。未绑定时明确提示所需文件，不悄悄选择旧目录。
 
 ## 必须保留的判断边界
 
