@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "asset_name": "knowledge-20261025.zip",
+  "sha256": "ac0441a34c8fe3649207390a8f78dd21bcf4a1a2d35947c9cd7a9daffae728b7",
+  "source_archive_sha256": "f8b457227a5f584d7496edb0f16e69f80b6ebe90994197853fe7b0666c5268cf",
+  "created_at": "2026-10-27T01:47:43.549296+00:00",
+  "metadata_collected_as_of": "SEE_COMPONENT_TIMESTAMPS",
+  "tables": 7139,
+  "coverage": {
+    "tables_with_sql_evidence": 2887,
+    "tables_with_description_evidence": 2318,
+    "tables_with_nonempty_lineage": 3748
+  },
+  "members": 20870,
+  "bytes": 57232430,
+  "distribution_validation": "PASS",
+  "visibility_required": "private",
+  "repository": "chenyixiang280-lab/bigdata-platform",
+  "release_tag": "knowledge-20261025",
+  "skill_version": "1.0.0"
+}

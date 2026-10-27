@@ -1,0 +1,4 @@
+interface:
+  display_name: "大数据平台工作流"
+  short_description: "查询表、结构与血缘，准备任务草稿并维护可版本更新的离线知识包"
+  default_prompt: "使用 $bigdata-platform 从本地知识包查找目标表、核对结构与血缘，并准备所需查询或任务草稿。"

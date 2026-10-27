@@ -1,0 +1,10 @@
+.local/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.zip
+*.sha256
+browser_profile/
+logs/
+downloads/
+.env
